@@ -2,8 +2,8 @@
 package endpoint
 
 import (
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/server"
+	"github.com/ship-os/ship-micro/v2/client"
+	"github.com/ship-os/ship-micro/v2/server"
 
 	"context"
 )

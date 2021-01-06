@@ -20,7 +20,7 @@ Install the protoc-gen libraries and other dependencies:
 
     $ go get -u github.com/golang/protobuf/{proto,protoc-gen-go}
     $ go get -u github.com/micro/protoc-gen-micro
-    $ go get -u github.com/micro/go-micro
+    $ go get -u github.com/ship-os/ship-micro
     $ go get -u github.com/hailocab/go-geoindex
 
 Clone the repository:

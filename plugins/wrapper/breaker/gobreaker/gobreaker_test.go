@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/selector"
-	"github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/registry/memory"
+	"github.com/ship-os/ship-micro/v2/client"
+	"github.com/ship-os/ship-micro/v2/selector"
+	"github.com/ship-os/ship-micro/v2/errors"
+	"github.com/ship-os/ship-micro/v2/registry/memory"
 	"github.com/sony/gobreaker"
 )
 

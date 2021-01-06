@@ -5,9 +5,9 @@ import (
 	"context"
 	"time"
 
-	hello "github.com/micro/go-micro/examples/greeter/srv/proto/hello"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/util/log"
+	hello "github.com/ship-os/ship-micro/examples/greeter/srv/proto/hello"
+	"github.com/ship-os/ship-micro/v2"
+	"github.com/ship-os/ship-micro/v2/util/log"
 	"google.golang.org/grpc"
 )
 

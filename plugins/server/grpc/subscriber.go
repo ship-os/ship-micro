@@ -7,12 +7,12 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/metadata"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/server"
+	"github.com/ship-os/ship-micro/v2/broker"
+	"github.com/ship-os/ship-micro/v2/errors"
+	"github.com/ship-os/ship-micro/v2/logger"
+	"github.com/ship-os/ship-micro/v2/metadata"
+	"github.com/ship-os/ship-micro/v2/registry"
+	"github.com/ship-os/ship-micro/v2/server"
 )
 
 const (

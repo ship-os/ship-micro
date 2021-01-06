@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
-	"github.com/micro/go-micro/v2/auth"
+	"github.com/ship-os/ship-micro/v2/auth"
 )
 
 // authClaims to be encoded in the JWT

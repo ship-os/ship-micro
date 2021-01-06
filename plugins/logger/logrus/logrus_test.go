@@ -7,7 +7,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/micro/go-micro/v2/logger"
+	"github.com/ship-os/ship-micro/v2/logger"
 )
 
 func TestName(t *testing.T) {

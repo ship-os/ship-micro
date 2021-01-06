@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/micro/go-micro/v2/config"
-	"github.com/micro/go-micro/v2/config/encoder/toml"
-	"github.com/micro/go-micro/v2/config/source"
-	"github.com/micro/go-micro/v2/config/source/file"
+	"github.com/ship-os/ship-micro/v2/config"
+	"github.com/ship-os/ship-micro/v2/config/encoder/toml"
+	"github.com/ship-os/ship-micro/v2/config/source"
+	"github.com/ship-os/ship-micro/v2/config/source/file"
 )
 
 func main() {

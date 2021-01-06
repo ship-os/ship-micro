@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2"
+	"github.com/ship-os/ship-micro/v2"
 )
 
 type Greeter struct{}

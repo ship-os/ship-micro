@@ -5,14 +5,14 @@ This plugin is a http client for go-micro.
 ## Overview
 
 The http client wraps `net/http` to provide a robust go-micro client with service discovery, load balancing and streaming. 
-It complies with the [go-micro.Client](https://godoc.org/github.com/micro/go-micro/client#Client) interface.
+It complies with the [go-micro.Client](https://godoc.org/github.com/ship-os/ship-micro/client#Client) interface.
 
 ## Usage
 
 ### Use directly
 
 ```go
-import "github.com/micro/go-micro/plugins/client/http"
+import "github.com/ship-os/ship-micro/plugins/client/http"
 
 service := micro.NewService(
 	micro.Name("my.service"),
@@ -23,7 +23,7 @@ service := micro.NewService(
 ### Use with flags
 
 ```go
-import _ "github.com/micro/go-micro/plugins/client/http"
+import _ "github.com/ship-os/ship-micro/plugins/client/http"
 ```
 
 ```shell

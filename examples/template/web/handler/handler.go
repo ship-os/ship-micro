@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	example "github.com/micro/go-micro/examples/template/srv/proto/example"
-	"github.com/micro/go-micro/v2/client"
+	example "github.com/ship-os/ship-micro/examples/template/srv/proto/example"
+	"github.com/ship-os/ship-micro/v2/client"
 )
 
 func ExampleCall(w http.ResponseWriter, r *http.Request) {

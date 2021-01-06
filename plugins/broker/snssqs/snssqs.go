@@ -16,9 +16,9 @@ import (
 	"github.com/aws/aws-sdk-go/service/sns"
 	"github.com/aws/aws-sdk-go/service/sqs"
 	"github.com/aws/aws-sdk-go/service/sts"
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/cmd"
-	"github.com/micro/go-micro/v2/logger"
+	"github.com/ship-os/ship-micro/v2/broker"
+	"github.com/ship-os/ship-micro/v2/cmd"
+	"github.com/ship-os/ship-micro/v2/logger"
 )
 
 type sessClientKey struct{}

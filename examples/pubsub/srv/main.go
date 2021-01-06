@@ -1,11 +1,11 @@
 package main
 
 import (
-	proto "github.com/micro/go-micro/examples/pubsub/srv/proto"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/metadata"
-	"github.com/micro/go-micro/v2/server"
-	"github.com/micro/go-micro/v2/util/log"
+	proto "github.com/ship-os/ship-micro/examples/pubsub/srv/proto"
+	"github.com/ship-os/ship-micro/v2"
+	"github.com/ship-os/ship-micro/v2/metadata"
+	"github.com/ship-os/ship-micro/v2/server"
+	"github.com/ship-os/ship-micro/v2/util/log"
 
 	"context"
 )

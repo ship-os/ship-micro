@@ -7,17 +7,17 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/cmd"
-	"github.com/micro/go-micro/v2/debug/handler"
-	"github.com/micro/go-micro/v2/debug/stats"
-	"github.com/micro/go-micro/v2/debug/trace"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/plugins"
-	"github.com/micro/go-micro/v2/server"
-	"github.com/micro/go-micro/v2/store"
-	signalutil "github.com/micro/go-micro/v2/util/signal"
-	"github.com/micro/go-micro/v2/util/wrapper"
+	"github.com/ship-os/ship-micro/v2/client"
+	"github.com/ship-os/ship-micro/v2/cmd"
+	"github.com/ship-os/ship-micro/v2/debug/handler"
+	"github.com/ship-os/ship-micro/v2/debug/stats"
+	"github.com/ship-os/ship-micro/v2/debug/trace"
+	"github.com/ship-os/ship-micro/v2/logger"
+	"github.com/ship-os/ship-micro/v2/plugins"
+	"github.com/ship-os/ship-micro/v2/server"
+	"github.com/ship-os/ship-micro/v2/store"
+	signalutil "github.com/ship-os/ship-micro/v2/util/signal"
+	"github.com/ship-os/ship-micro/v2/util/wrapper"
 )
 
 type service struct {

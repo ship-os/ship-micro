@@ -2,7 +2,7 @@ package redis
 
 import (
 	"github.com/go-redis/redis/v7"
-	"github.com/micro/go-micro/v2/store"
+	"github.com/ship-os/ship-micro/v2/store"
 	"os"
 	"testing"
 	"time"

@@ -1,8 +1,8 @@
 package network
 
 import (
-	pbNet "github.com/micro/go-micro/v2/network/proto"
-	"github.com/micro/go-micro/v2/network/router"
+	pbNet "github.com/ship-os/ship-micro/v2/network/proto"
+	"github.com/ship-os/ship-micro/v2/network/router"
 )
 
 // routeToProto encodes route into protobuf and returns it

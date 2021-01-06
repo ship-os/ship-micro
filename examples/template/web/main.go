@@ -3,9 +3,9 @@ package main
 import (
 	"net/http"
 
-	"github.com/micro/go-micro/examples/template/web/handler"
-	"github.com/micro/go-micro/v2/util/log"
-	"github.com/micro/go-micro/v2/web"
+	"github.com/ship-os/ship-micro/examples/template/web/handler"
+	"github.com/ship-os/ship-micro/v2/util/log"
+	"github.com/ship-os/ship-micro/v2/web"
 )
 
 func main() {

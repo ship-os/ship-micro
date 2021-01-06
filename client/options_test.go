@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/go-micro/v2/transport"
+	"github.com/ship-os/ship-micro/v2/transport"
 )
 
 func TestCallOptions(t *testing.T) {

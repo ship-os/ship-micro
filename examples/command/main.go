@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"context"
-	"github.com/micro/go-micro/v2"
+	"github.com/ship-os/ship-micro/v2"
 
-	proto "github.com/micro/go-micro/v2/agent/proto"
+	proto "github.com/ship-os/ship-micro/v2/agent/proto"
 )
 
 type Command struct{}

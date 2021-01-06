@@ -1,4 +1,4 @@
-module github.com/micro/go-micro/v2
+module github.com/ship-os/ship-micro/v2
 
 go 1.13
 
@@ -21,11 +21,11 @@ require (
 	github.com/hpcloud/tail v1.0.0
 	github.com/imdario/mergo v0.3.9
 	github.com/lucas-clemente/quic-go v0.19.3
-	github.com/micro/cli/v2 v2.1.2
 	github.com/miekg/dns v1.1.27
 	github.com/oxtoacart/bpool v0.0.0-20190530202638-03653db5a59c
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/pkg/errors v0.9.1
+	github.com/ship-os/micro-cli/v2 v2.2.0
 	github.com/stretchr/testify v1.4.0
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 	golang.org/x/net v0.0.0-20200707034311-ab3426394381

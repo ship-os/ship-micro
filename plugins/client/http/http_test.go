@@ -10,11 +10,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/selector"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/registry/memory"
-	"github.com/micro/go-micro/plugins/client/http/v2/test"
+	"github.com/ship-os/ship-micro/v2/client"
+	"github.com/ship-os/ship-micro/v2/selector"
+	"github.com/ship-os/ship-micro/v2/registry"
+	"github.com/ship-os/ship-micro/v2/registry/memory"
+	"github.com/ship-os/ship-micro/plugins/client/http/v2/test"
 )
 
 func TestHTTPClient(t *testing.T) {

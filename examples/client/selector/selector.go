@@ -6,11 +6,11 @@ import (
 	"math/rand"
 	"time"
 
-	example "github.com/micro/go-micro/examples/server/proto/example"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/client/selector"
-	"github.com/micro/go-micro/v2/config/cmd"
-	"github.com/micro/go-micro/v2/registry"
+	example "github.com/ship-os/ship-micro/examples/server/proto/example"
+	"github.com/ship-os/ship-micro/v2/client"
+	"github.com/ship-os/ship-micro/v2/client/selector"
+	"github.com/ship-os/ship-micro/v2/config/cmd"
+	"github.com/ship-os/ship-micro/v2/registry"
 )
 
 func init() {

@@ -1,4 +1,4 @@
-module github.com/micro/go-micro/examples
+module github.com/ship-os/ship-micro/examples
 
 go 1.13
 
@@ -26,8 +26,8 @@ require (
 	github.com/gorilla/websocket v1.4.1
 	github.com/grpc-ecosystem/grpc-gateway v1.12.1
 	github.com/hailocab/go-geoindex v0.0.0-20160127134810-64631bfe9711
-	github.com/micro/cli/v2 v2.1.2
-	github.com/micro/go-micro/v2 v2.4.0
+	github.com/ship-os/micro-cli/v2 v2.1.2
+	github.com/ship-os/ship-micro/v2 v2.4.0
 	github.com/micro/go-plugins/broker/grpc/v2 v2.3.0
 	github.com/micro/go-plugins/client/selector/static/v2 v2.3.0
 	github.com/micro/go-plugins/config/source/configmap/v2 v2.3.0

@@ -8,13 +8,13 @@ import (
 	"context"
 
 	"github.com/juju/ratelimit"
-	bmemory "github.com/micro/go-micro/v2/broker/memory"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/selector"
-	"github.com/micro/go-micro/v2/errors"
-	rmemory "github.com/micro/go-micro/v2/registry/memory"
-	"github.com/micro/go-micro/v2/server"
-	tmemory "github.com/micro/go-micro/v2/transport/memory"
+	bmemory "github.com/ship-os/ship-micro/v2/broker/memory"
+	"github.com/ship-os/ship-micro/v2/client"
+	"github.com/ship-os/ship-micro/v2/selector"
+	"github.com/ship-os/ship-micro/v2/errors"
+	rmemory "github.com/ship-os/ship-micro/v2/registry/memory"
+	"github.com/ship-os/ship-micro/v2/server"
+	tmemory "github.com/ship-os/ship-micro/v2/transport/memory"
 )
 
 type testHandler struct{}

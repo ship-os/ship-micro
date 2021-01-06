@@ -4,14 +4,14 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/micro/go-micro/examples/booking/data"
-	"github.com/micro/go-micro/examples/booking/srv/profile/proto"
+	"github.com/ship-os/ship-micro/examples/booking/data"
+	"github.com/ship-os/ship-micro/examples/booking/srv/profile/proto"
 
 	"context"
 	"golang.org/x/net/trace"
 
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/metadata"
+	"github.com/ship-os/ship-micro/v2"
+	"github.com/ship-os/ship-micro/v2/metadata"
 )
 
 type Profile struct {

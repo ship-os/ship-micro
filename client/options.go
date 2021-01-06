@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/codec"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/selector"
-	"github.com/micro/go-micro/v2/transport"
+	"github.com/ship-os/ship-micro/v2/broker"
+	"github.com/ship-os/ship-micro/v2/codec"
+	"github.com/ship-os/ship-micro/v2/registry"
+	"github.com/ship-os/ship-micro/v2/selector"
+	"github.com/ship-os/ship-micro/v2/transport"
 )
 
 type Options struct {

@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"context"
-	example "github.com/micro/go-micro/examples/server/proto/example"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/metadata"
+	example "github.com/ship-os/ship-micro/examples/server/proto/example"
+	"github.com/ship-os/ship-micro/v2"
+	"github.com/ship-os/ship-micro/v2/client"
+	"github.com/ship-os/ship-micro/v2/metadata"
 )
 
 // publishes a message

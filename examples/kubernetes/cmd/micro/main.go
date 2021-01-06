@@ -3,12 +3,12 @@ package main
 import (
 	"os"
 
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/client"
-	cli "github.com/micro/go-micro/v2/client/grpc"
-	"github.com/micro/go-micro/v2/config/cmd"
-	"github.com/micro/go-micro/v2/server"
-	srv "github.com/micro/go-micro/v2/server/grpc"
+	"github.com/ship-os/ship-micro/v2/broker"
+	"github.com/ship-os/ship-micro/v2/client"
+	cli "github.com/ship-os/ship-micro/v2/client/grpc"
+	"github.com/ship-os/ship-micro/v2/config/cmd"
+	"github.com/ship-os/ship-micro/v2/server"
+	srv "github.com/ship-os/ship-micro/v2/server/grpc"
 	bkr "github.com/micro/go-plugins/broker/grpc/v2"
 	_ "github.com/micro/go-plugins/registry/kubernetes/v2"
 
@@ -18,7 +18,7 @@ import (
 	_ "github.com/micro/go-plugins/client/selector/static/v2"
 
 	// disable namespace by default
-	_ "github.com/micro/go-micro/v2/api"
+	_ "github.com/ship-os/ship-micro/v2/api"
 )
 
 func main() {

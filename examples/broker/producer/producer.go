@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/config/cmd"
+	"github.com/ship-os/ship-micro/v2/broker"
+	"github.com/ship-os/ship-micro/v2/config/cmd"
 	// To enable rabbitmq plugin uncomment
 	//_ "github.com/micro/go-plugins/broker/rabbitmq"
 )

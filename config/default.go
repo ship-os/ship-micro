@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/v2/config/loader"
-	"github.com/micro/go-micro/v2/config/loader/memory"
-	"github.com/micro/go-micro/v2/config/reader"
-	"github.com/micro/go-micro/v2/config/reader/json"
-	"github.com/micro/go-micro/v2/config/source"
+	"github.com/ship-os/ship-micro/v2/config/loader"
+	"github.com/ship-os/ship-micro/v2/config/loader/memory"
+	"github.com/ship-os/ship-micro/v2/config/reader"
+	"github.com/ship-os/ship-micro/v2/config/reader/json"
+	"github.com/ship-os/ship-micro/v2/config/source"
 )
 
 type config struct {

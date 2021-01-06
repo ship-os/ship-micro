@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"context"
-	proto "github.com/micro/go-micro/examples/pubsub/srv/proto"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/util/log"
+	proto "github.com/ship-os/ship-micro/examples/pubsub/srv/proto"
+	"github.com/ship-os/ship-micro/v2"
+	"github.com/ship-os/ship-micro/v2/util/log"
 	"github.com/pborman/uuid"
 )
 

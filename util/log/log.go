@@ -1,5 +1,5 @@
 // Package log is a global internal logger
-// DEPRECATED: this is frozen package, use github.com/micro/go-micro/v2/logger
+// DEPRECATED: this is frozen package, use github.com/ship-os/ship-micro/v2/logger
 package log
 
 import (
@@ -7,8 +7,8 @@ import (
 	"os"
 	"sync/atomic"
 
-	dlog "github.com/micro/go-micro/v2/debug/log"
-	nlog "github.com/micro/go-micro/v2/logger"
+	dlog "github.com/ship-os/ship-micro/v2/debug/log"
+	nlog "github.com/ship-os/ship-micro/v2/logger"
 )
 
 // level is a log level

@@ -13,7 +13,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/micro/go-micro/v2/agent/command"
+	"github.com/ship-os/ship-micro/v2/agent/command"
 )
 
 var (

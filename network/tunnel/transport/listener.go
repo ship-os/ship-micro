@@ -1,8 +1,8 @@
 package transport
 
 import (
-	"github.com/micro/go-micro/v2/network/tunnel"
-	"github.com/micro/go-micro/v2/transport"
+	"github.com/ship-os/ship-micro/v2/network/tunnel"
+	"github.com/ship-os/ship-micro/v2/transport"
 )
 
 type tunListener struct {

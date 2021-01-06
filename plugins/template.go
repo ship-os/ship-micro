@@ -6,7 +6,7 @@ package main
 
 import (
 	"{{.Path}}"
-	"github.com/micro/go-micro/plugins"
+	"github.com/ship-os/ship-micro/plugins"
 )
 
 var Plugin = plugin.Plugin{

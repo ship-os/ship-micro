@@ -4,7 +4,7 @@ import (
 	"errors"
 	"flag"
 	"github.com/imdario/mergo"
-	"github.com/micro/go-micro/v2/config/source"
+	"github.com/ship-os/ship-micro/v2/config/source"
 	"strings"
 	"time"
 )

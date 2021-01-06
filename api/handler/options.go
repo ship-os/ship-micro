@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"github.com/micro/go-micro/v2/api/router"
-	"github.com/micro/go-micro/v2/client"
+	"github.com/ship-os/ship-micro/v2/api/router"
+	"github.com/ship-os/ship-micro/v2/client"
 )
 
 var (

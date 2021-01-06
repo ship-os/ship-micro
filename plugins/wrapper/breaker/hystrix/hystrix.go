@@ -2,7 +2,7 @@ package hystrix
 
 import (
 	"github.com/afex/hystrix-go/hystrix"
-	"github.com/micro/go-micro/v2/client"
+	"github.com/ship-os/ship-micro/v2/client"
 
 	"context"
 )

@@ -3,9 +3,9 @@ package subscriber
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2/util/log"
+	"github.com/ship-os/ship-micro/v2/util/log"
 
-	example "github.com/micro/go-micro/examples/template/fnc/proto/example"
+	example "github.com/ship-os/ship-micro/examples/template/fnc/proto/example"
 )
 
 type Example struct{}

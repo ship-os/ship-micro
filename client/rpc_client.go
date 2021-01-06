@@ -7,17 +7,17 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/codec"
-	raw "github.com/micro/go-micro/v2/codec/bytes"
-	"github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/metadata"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/selector"
-	"github.com/micro/go-micro/v2/transport"
-	"github.com/micro/go-micro/v2/util/buf"
-	"github.com/micro/go-micro/v2/util/net"
-	"github.com/micro/go-micro/v2/util/pool"
+	"github.com/ship-os/ship-micro/v2/broker"
+	"github.com/ship-os/ship-micro/v2/codec"
+	raw "github.com/ship-os/ship-micro/v2/codec/bytes"
+	"github.com/ship-os/ship-micro/v2/errors"
+	"github.com/ship-os/ship-micro/v2/metadata"
+	"github.com/ship-os/ship-micro/v2/registry"
+	"github.com/ship-os/ship-micro/v2/selector"
+	"github.com/ship-os/ship-micro/v2/transport"
+	"github.com/ship-os/ship-micro/v2/util/buf"
+	"github.com/ship-os/ship-micro/v2/util/net"
+	"github.com/ship-os/ship-micro/v2/util/pool"
 )
 
 type rpcClient struct {

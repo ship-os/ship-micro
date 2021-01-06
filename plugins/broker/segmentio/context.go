@@ -3,8 +3,8 @@ package segmentio
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/server"
+	"github.com/ship-os/ship-micro/v2/broker"
+	"github.com/ship-os/ship-micro/v2/server"
 )
 
 // setSubscribeOption returns a function to setup a context with given value

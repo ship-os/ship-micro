@@ -7,7 +7,7 @@ import (
 	"time"
 
 	quic "github.com/lucas-clemente/quic-go"
-	utls "github.com/micro/go-micro/v2/util/tls"
+	utls "github.com/ship-os/ship-micro/v2/util/tls"
 )
 
 type quicSocket struct {

@@ -5,7 +5,7 @@ import (
 	"flag"
 	"strings"
 
-	"github.com/micro/cli/v2"
+	"github.com/ship-os/micro-cli/v2"
 )
 
 func copyFlag(name string, ff *flag.Flag, set *flag.FlagSet) {

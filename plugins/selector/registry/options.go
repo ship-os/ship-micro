@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/micro/go-micro/v2/selector"
+	"github.com/ship-os/ship-micro/v2/selector"
 )
 
 // Set the registry cache ttl

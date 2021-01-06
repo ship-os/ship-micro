@@ -6,12 +6,12 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2/client"
-	gcli "github.com/micro/go-micro/v2/client/grpc"
-	"github.com/micro/go-micro/v2/config/cmd"
-	proto "github.com/micro/go-micro/v2/debug/service/proto"
-	"github.com/micro/go-micro/v2/util/log"
+	"github.com/ship-os/micro-cli/v2"
+	"github.com/ship-os/ship-micro/v2/client"
+	gcli "github.com/ship-os/ship-micro/v2/client/grpc"
+	"github.com/ship-os/ship-microig/cmd"
+	proto "github.com/ship-os/ship-microg/service/proto"
+	"github.com/ship-os/ship-micro/log"
 	_ "github.com/micro/go-plugins/registry/kubernetes/v2"
 )
 

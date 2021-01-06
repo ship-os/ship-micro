@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	hello "github.com/micro/go-micro/examples/greeter/srv/proto/hello"
-	"github.com/micro/go-micro/v2"
+	hello "github.com/ship-os/ship-micro/examples/greeter/srv/proto/hello"
+	"github.com/ship-os/ship-micro/v2"
 )
 
 func main() {

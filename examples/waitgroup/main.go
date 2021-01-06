@@ -5,8 +5,8 @@ import (
 	"sync"
 
 	"context"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/server"
+	"github.com/ship-os/ship-micro/v2"
+	"github.com/ship-os/ship-micro/v2/server"
 )
 
 // waitgroup is a handler wrapper which adds a handler to a sync.WaitGroup

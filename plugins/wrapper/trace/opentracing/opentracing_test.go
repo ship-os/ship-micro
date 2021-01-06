@@ -4,17 +4,17 @@ import (
 	"context"
 	"testing"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/selector"
-	microerr "github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/registry/memory"
-	"github.com/micro/go-micro/v2/server"
+	"github.com/ship-os/ship-micro/v2/client"
+	"github.com/ship-os/ship-micro/v2/selector"
+	microerr "github.com/ship-os/ship-micro/v2/errors"
+	"github.com/ship-os/ship-micro/v2/registry/memory"
+	"github.com/ship-os/ship-micro/v2/server"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/mocktracer"
 	"github.com/stretchr/testify/assert"
 
-	cli "github.com/micro/go-micro/v2/client"
-	srv "github.com/micro/go-micro/v2/server"
+	cli "github.com/ship-os/ship-micro/v2/client"
+	srv "github.com/ship-os/ship-micro/v2/server"
 )
 
 type Test interface {

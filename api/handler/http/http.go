@@ -8,9 +8,9 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"github.com/micro/go-micro/v2/api"
-	"github.com/micro/go-micro/v2/api/handler"
-	"github.com/micro/go-micro/v2/selector"
+	"github.com/ship-os/ship-micro/v2/api"
+	"github.com/ship-os/ship-micro/v2/api/handler"
+	"github.com/ship-os/ship-micro/v2/selector"
 )
 
 const (

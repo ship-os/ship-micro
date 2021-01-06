@@ -5,9 +5,9 @@ import (
 	"sync"
 	"testing"
 
-	proto "github.com/micro/go-micro/v2/debug/proto"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/util/test"
+	proto "github.com/ship-os/ship-micro/v2/debug/proto"
+	"github.com/ship-os/ship-micro/v2/registry"
+	"github.com/ship-os/ship-micro/v2/util/test"
 )
 
 func TestFunction(t *testing.T) {

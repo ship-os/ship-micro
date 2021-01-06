@@ -7,7 +7,7 @@ import (
 	"hash/fnv"
 	"time"
 
-	"github.com/micro/go-micro/v2/metadata"
+	"github.com/ship-os/ship-micro/v2/metadata"
 	cache "github.com/patrickmn/go-cache"
 )
 

@@ -18,7 +18,7 @@ package main
 
 import (
 	"log"
-	"github.com/micro/cli/v2"
+	"github.com/ship-os/micro-cli/v2"
 	"github.com/micro/micro/v2/plugin"
 )
 
@@ -55,7 +55,7 @@ Plugins can be added to go-micro in the following ways. By doing so they'll be a
 
 ```go
 import (
-	"github.com/micro/go-micro/v2/config/cmd"
+	"github.com/ship-os/ship-micro/v2/config/cmd"
 	_ "github.com/micro/go-plugins/broker/rabbitmq"
 	_ "github.com/micro/go-plugins/registry/kubernetes"
 	_ "github.com/micro/go-plugins/transport/nats"
@@ -71,7 +71,7 @@ The same is achieved when calling ```service.Init```
 
 ```go
 import (
-	"github.com/micro/go-micro/v2"
+	"github.com/ship-os/ship-micro/v2"
 	_ "github.com/micro/go-plugins/broker/rabbitmq"
 	_ "github.com/micro/go-plugins/registry/kubernetes"
 	_ "github.com/micro/go-plugins/transport/nats"
@@ -102,7 +102,7 @@ CLI Flags provide a simple way to initialise plugins but you can do the same you
 
 ```go
 import (
-	"github.com/micro/go-micro/v2"
+	"github.com/ship-os/ship-micro/v2"
 	"github.com/micro/go-plugins/registry/kubernetes"
 )
 

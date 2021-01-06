@@ -2,7 +2,7 @@
 package micro
 
 import (
-	"github.com/micro/go-micro/v2"
+	"github.com/ship-os/ship-micro/v2"
 	"github.com/micro/go-plugins/registry/kubernetes/v2"
 
 	// static selector offloads load balancing to k8s services

@@ -2,11 +2,11 @@ package main
 
 import (
 	"github.com/99designs/gqlgen/handler"
-	gql "github.com/micro/go-micro/examples/greeter/api/graphql/graphql"
-	helloProto "github.com/micro/go-micro/examples/greeter/srv/proto/hello"
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/util/log"
-	"github.com/micro/go-micro/v2/web"
+	gql "github.com/ship-os/ship-micro/examples/greeter/api/graphql/graphql"
+	helloProto "github.com/ship-os/ship-micro/examples/greeter/srv/proto/hello"
+	"github.com/ship-os/ship-micro/v2/client"
+	"github.com/ship-os/ship-micro/v2/util/log"
+	"github.com/ship-os/ship-micro/v2/web"
 )
 
 func main() {

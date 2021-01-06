@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/ef-ds/deque"
-	"github.com/micro/go-micro/v2/store"
+	"github.com/ship-os/ship-micro/v2/store"
 	"github.com/pkg/errors"
 )
 

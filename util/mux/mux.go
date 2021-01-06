@@ -5,10 +5,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/micro/go-micro/v2/client"
-	"github.com/micro/go-micro/v2/debug/handler"
-	"github.com/micro/go-micro/v2/network/proxy"
-	"github.com/micro/go-micro/v2/server"
+	"github.com/ship-os/ship-micro/v2/client"
+	"github.com/ship-os/ship-micro/v2/debug/handler"
+	"github.com/ship-os/ship-micro/v2/network/proxy"
+	"github.com/ship-os/ship-micro/v2/server"
 )
 
 // Server is a proxy muxer that incudes the use of the DefaultHandler

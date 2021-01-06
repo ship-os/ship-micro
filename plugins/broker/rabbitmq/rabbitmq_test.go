@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	micro "github.com/micro/go-micro/v2"
-	broker "github.com/micro/go-micro/v2/broker"
-	server "github.com/micro/go-micro/v2/server"
-	rabbitmq "github.com/micro/go-micro/plugins/broker/rabbitmq/v2"
+	micro "github.com/ship-os/ship-micro/v2"
+	broker "github.com/ship-os/ship-micro/v2/broker"
+	server "github.com/ship-os/ship-micro/v2/server"
+	rabbitmq "github.com/ship-os/ship-micro/plugins/broker/rabbitmq/v2"
 )
 
 type Example struct{}

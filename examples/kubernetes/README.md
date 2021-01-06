@@ -33,7 +33,7 @@ provides a kubernetes native runtime to help build micro services.
 
 
 ```
-go get github.com/micro/go-micro/examples/kubernetes/cmd/micro
+go get github.com/ship-os/ship-micro/examples/kubernetes/cmd/micro
 ```
 
 or
@@ -45,17 +45,17 @@ docker pull microhq/micro:kubernetes
 For go-micro
 
 ```
-import "github.com/micro/go-micro/examples/kubernetes/go/micro"
+import "github.com/ship-os/ship-micro/examples/kubernetes/go/micro"
 ```
 
 ## Writing a Service
 
-Write a service as you would any other [go-micro](https://github.com/micro/go-micro) service.
+Write a service as you would any other [go-micro](https://github.com/ship-os/ship-micro) service.
 
 ```go
 import (
-	"github.com/micro/go-micro/v2"
-	k8s "github.com/micro/go-micro/examples/kubernetes/go/micro"
+	"github.com/ship-os/ship-micro/v2"
+	k8s "github.com/ship-os/ship-micro/examples/kubernetes/go/micro"
 )
 
 func main() {
@@ -131,14 +131,14 @@ kubectl create -f greeter-svc.yaml
 
 ## Writing a Web Service
 
-Write a web service as you would any other [go-micro/web](https://github.com/micro/go-micro/web) service.
+Write a web service as you would any other [go-micro/web](https://github.com/ship-os/ship-micro/web) service.
 
 ```go
 import (
 	"net/http"
 
-	"github.com/micro/go-micro/v2/web"
-	k8s "github.com/micro/go-micro/examples/kubernetes/go/web"
+	"github.com/ship-os/ship-micro/v2/web"
+	k8s "github.com/ship-os/ship-micro/examples/kubernetes/go/web"
 )
 
 func main() {
@@ -163,7 +163,7 @@ Every go-micro service has a built in Debug.Health endpoint.
 ### Install
 
 ```
-go get github.com/micro/go-micro/examples/kubernetes/cmd/health
+go get github.com/ship-os/ship-micro/examples/kubernetes/cmd/health
 ```
 
 or
@@ -333,7 +333,7 @@ See [linkerd2](https://linkerd.io/) for usage.
 
 ## Using Config Map
 
-[Go Config](https://github.com/micro/go-micro/config) is a simple way to manage dynamic configuration. We've provided a pre-initialised version 
+[Go Config](https://github.com/ship-os/ship-micro/config) is a simple way to manage dynamic configuration. We've provided a pre-initialised version 
 which reads from environment variables and the k8s config map.
 
 It uses the `default` namespace and expects a configmap with name `micro` to be present.
@@ -368,7 +368,7 @@ $ kubectl get configmap micro --namespace default
 Import and use the config
 
 ```go
-import "github.com/micro/go-micro/examples/kubernetes/go/config"
+import "github.com/ship-os/ship-micro/examples/kubernetes/go/config"
 
 cfg := config.NewConfig()
 

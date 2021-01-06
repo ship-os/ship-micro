@@ -14,16 +14,16 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/cmd"
-	merr "github.com/micro/go-micro/v2/errors"
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/registry"
-	"github.com/micro/go-micro/v2/registry/cache"
-	maddr "github.com/micro/go-micro/v2/util/addr"
-	mnet "github.com/micro/go-micro/v2/util/net"
-	mls "github.com/micro/go-micro/v2/util/tls"
-	proto "github.com/micro/go-micro/plugins/broker/grpc/v2/proto"
+	"github.com/ship-os/ship-micro/v2/broker"
+	"github.com/ship-os/ship-micro/v2/cmd"
+	merr "github.com/ship-os/ship-micro/v2/errors"
+	log "github.com/ship-os/ship-micro/v2/logger"
+	"github.com/ship-os/ship-micro/v2/registry"
+	"github.com/ship-os/ship-micro/v2/registry/cache"
+	maddr "github.com/ship-os/ship-micro/v2/util/addr"
+	mnet "github.com/ship-os/ship-micro/v2/util/net"
+	mls "github.com/ship-os/ship-micro/v2/util/tls"
+	proto "github.com/ship-os/ship-micro/plugins/broker/grpc/v2/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )
@@ -62,7 +62,7 @@ type grpcEvent struct {
 }
 
 var (
-	registryKey = "github.com/micro/go-micro/v2/registry"
+	registryKey = "github.com/ship-os/ship-micro/v2/registry"
 
 	broadcastVersion = "ff.grpc.broadcast"
 	registerTTL      = time.Minute

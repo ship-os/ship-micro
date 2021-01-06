@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/util/mdns"
+	"github.com/ship-os/ship-micro/v2/logger"
+	"github.com/ship-os/ship-micro/v2/util/mdns"
 )
 
 var (

@@ -3,12 +3,12 @@ package handler
 import (
 	"context"
 	"encoding/json"
-	"github.com/micro/go-micro/v2/util/log"
+	"github.com/ship-os/ship-micro/v2/util/log"
 
-	"github.com/micro/go-micro/examples/template/api/client"
-	example "github.com/micro/go-micro/examples/template/srv/proto/example"
-	api "github.com/micro/go-micro/v2/api/proto"
-	"github.com/micro/go-micro/v2/errors"
+	"github.com/ship-os/ship-micro/examples/template/api/client"
+	example "github.com/ship-os/ship-micro/examples/template/srv/proto/example"
+	api "github.com/ship-os/ship-micro/v2/api/proto"
+	"github.com/ship-os/ship-micro/v2/errors"
 )
 
 type Example struct{}

@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/micro/go-micro/examples/template/fnc/handler"
-	"github.com/micro/go-micro/examples/template/fnc/subscriber"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/util/log"
+	"github.com/ship-os/ship-micro/examples/template/fnc/handler"
+	"github.com/ship-os/ship-micro/examples/template/fnc/subscriber"
+	"github.com/ship-os/ship-micro/v2"
+	"github.com/ship-os/ship-micro/v2/util/log"
 )
 
 func main() {

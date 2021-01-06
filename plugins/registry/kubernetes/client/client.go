@@ -8,9 +8,9 @@ import (
 	"os"
 	"path"
 
-	log "github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/plugins/registry/kubernetes/v2/client/api"
-	"github.com/micro/go-micro/plugins/registry/kubernetes/v2/client/watch"
+	log "github.com/ship-os/ship-micro/v2/logger"
+	"github.com/ship-os/ship-micro/plugins/registry/kubernetes/v2/client/api"
+	"github.com/ship-os/ship-micro/plugins/registry/kubernetes/v2/client/watch"
 )
 
 var (

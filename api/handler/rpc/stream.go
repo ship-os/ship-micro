@@ -12,11 +12,11 @@ import (
 	"github.com/gobwas/httphead"
 	"github.com/gobwas/ws"
 	"github.com/gobwas/ws/wsutil"
-	"github.com/micro/go-micro/v2/api"
-	"github.com/micro/go-micro/v2/client"
-	raw "github.com/micro/go-micro/v2/codec/bytes"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/selector"
+	"github.com/ship-os/ship-micro/v2/api"
+	"github.com/ship-os/ship-micro/v2/client"
+	raw "github.com/ship-os/ship-micro/v2/codec/bytes"
+	"github.com/ship-os/ship-micro/v2/logger"
+	"github.com/ship-os/ship-micro/v2/selector"
 )
 
 // serveWebsocket will stream rpc back over websockets assuming json

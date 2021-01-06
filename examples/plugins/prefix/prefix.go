@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/micro/cli/v2"
+	"github.com/ship-os/micro-cli/v2"
 	"github.com/micro/micro/v2/plugin"
 )
 

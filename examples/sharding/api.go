@@ -5,9 +5,9 @@ import (
 	"log"
 	"strings"
 
-	hello "github.com/micro/go-micro/examples/greeter/srv/proto/hello"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/errors"
+	hello "github.com/ship-os/ship-micro/examples/greeter/srv/proto/hello"
+	"github.com/ship-os/ship-micro/v2"
+	"github.com/ship-os/ship-micro/v2/errors"
 	shard "github.com/micro/go-plugins/wrapper/select/shard/v2"
 	api "github.com/micro/micro/v2/api/proto"
 

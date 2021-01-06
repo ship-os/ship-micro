@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/web"
+	"github.com/ship-os/ship-micro/v2/errors"
+	"github.com/ship-os/ship-micro/v2/web"
 )
 
 // exampleCall will handle /example/call

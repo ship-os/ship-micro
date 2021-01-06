@@ -1,4 +1,4 @@
-# Go Micro [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/micro/go-micro/v2?tab=doc) [![Travis CI](https://api.travis-ci.org/micro/go-micro.svg?branch=master)](https://travis-ci.org/micro/go-micro) [![Go Report Card](https://goreportcard.com/badge/micro/go-micro)](https://goreportcard.com/report/github.com/micro/go-micro) 
+# Go Micro [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/ship-os/ship-micro/v2?tab=doc) [![Travis CI](https://api.travis-ci.org/micro/go-micro.svg?branch=master)](https://travis-ci.org/micro/go-micro) [![Go Report Card](https://goreportcard.com/badge/micro/go-micro)](https://goreportcard.com/report/github.com/ship-os/ship-micro) 
 
 Go Micro is a framework for distributed systems development.
 
@@ -51,7 +51,7 @@ are pluggable and allows Go Micro to be runtime agnostic. You can plugin any und
 To make use of Go Micro
 
 ```golang
-import "github.com/micro/go-micro/v2"
+import "github.com/ship-os/ship-micro/v2"
 
 // create a new service
 service := micro.NewService(
@@ -69,15 +69,15 @@ See the [docs](https://github.com/micro/micro/tree/master/docs/v2) for detailed 
 
 ## Code Generation
 
-See [cmd/protoc-gen-micro](https://github.com/micro/go-micro/tree/master/cmd/protoc-gen-micro) for protobuf code generation.
+See [cmd/protoc-gen-micro](https://github.com/ship-os/ship-micro/tree/master/cmd/protoc-gen-micro) for protobuf code generation.
 
 ## Example Usage
 
-See [examples](https://github.com/micro/go-micro/tree/master/examples) directory for usage examples.
+See [examples](https://github.com/ship-os/ship-micro/tree/master/examples) directory for usage examples.
 
 ## Plugins
 
-See [plugins](https://github.com/micro/go-micro/tree/master/plugins) directory for all the plugins.
+See [plugins](https://github.com/ship-os/ship-micro/tree/master/plugins) directory for all the plugins.
 
 ## License
 

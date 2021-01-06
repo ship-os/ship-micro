@@ -5,19 +5,19 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/micro/go-micro/v2"
-	bmemory "github.com/micro/go-micro/v2/broker/memory"
-	"github.com/micro/go-micro/v2/client"
-	gcli "github.com/micro/go-micro/v2/client/grpc"
-	"github.com/micro/go-micro/v2/errors"
-	rmemory "github.com/micro/go-micro/v2/registry/memory"
-	"github.com/micro/go-micro/v2/server"
-	gsrv "github.com/micro/go-micro/v2/server/grpc"
-	tgrpc "github.com/micro/go-micro/v2/transport/grpc"
+	"github.com/ship-os/ship-micro/v2"
+	bmemory "github.com/ship-os/ship-micro/v2/broker/memory"
+	"github.com/ship-os/ship-micro/v2/client"
+	gcli "github.com/ship-os/ship-micro/v2/client/grpc"
+	"github.com/ship-os/ship-micro/v2/errors"
+	rmemory "github.com/ship-os/ship-micro/v2/registry/memory"
+	"github.com/ship-os/ship-micro/v2/server"
+	gsrv "github.com/ship-os/ship-micro/v2/server/grpc"
+	tgrpc "github.com/ship-os/ship-micro/v2/transport/grpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/status"
 
-	pb "github.com/micro/go-micro/v2/server/grpc/proto"
+	pb "github.com/ship-os/ship-micro/v2/server/grpc/proto"
 )
 
 // server is used to implement helloworld.GreeterServer.

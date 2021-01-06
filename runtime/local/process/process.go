@@ -4,7 +4,7 @@ package process
 import (
 	"io"
 
-	"github.com/micro/go-micro/v2/runtime/local/build"
+	"github.com/ship-os/ship-micro/v2/runtime/local/build"
 )
 
 // Process manages a running process
